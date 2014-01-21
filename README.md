@@ -1,6 +1,6 @@
 ### Description ###
 
-This is a Chef cookbook to setup a Google Native Client build environment.
+This is a Chef cookbook to setup a Google Native Client build environment on Linux (only Ubuntu/Debian flavour so far).
 
 What happens under the hood:
 
