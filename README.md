@@ -1,6 +1,6 @@
 ### Description ###
 
-This is a Chef cookbook to setup an Google Native Client build environment.
+This is a Chef cookbook to setup a Google Native Client build environment.
 
 What happens under the hood:
 
@@ -24,11 +24,11 @@ What happens under the hood:
 ### Attributes ###
 #### Default recipe attributes: ####
 
-```default['nacl']['user'] = "vagrant"```: the user for which to install the NaCl SDK
-```default['nacl']['group'] = "vagrant"```: the group to use for file permissions
-```default['nacl']['rootpath'] = '/home/vagrant/nacl-sdk'``` where to install the NaCl SDK
-```default['nacl']['url_prefix'] = 'http://storage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk'``` where to find the SDK stub
-```default['nacl']['bundle'] = 'pepper_canary'```: what pepper bundle to install
+* ```default['nacl']['user'] = "vagrant"```: the user for which to install the NaCl SDK
+* ```default['nacl']['group'] = "vagrant"```: the group to use for file permissions
+* ```default['nacl']['rootpath'] = '/home/vagrant/nacl-sdk'``` where to install the NaCl SDK
+* ```default['nacl']['url_prefix'] = 'http://storage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk'``` where to find the SDK stub
+* ```default['nacl']['bundle'] = 'pepper_canary'```: what pepper bundle to install
 
 ### Author ####
 Author:: Andre Weissflog (floooh@gmail.com)
