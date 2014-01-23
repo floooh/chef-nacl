@@ -1,3 +1,4 @@
+# encoding: UTF-8
 name             'nacl'
 maintainer       'Andre Weissflog'
 maintainer_email 'floooh@gmail.com'
@@ -8,4 +9,3 @@ version          '0.1.0'
 depends          'apt'
 depends          'python'
 depends          'build-essential'
-
